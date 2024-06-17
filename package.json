@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/BransinO1/cse-341-project1/issues"
   },
-  "homepage": "https://github.com/BransinO1/cse-341-project1#readme"
+  "homepage": "https://github.com/BransinO1/cse-341-project1#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.7.0"
+  }
 }
