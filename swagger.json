@@ -48,20 +48,30 @@
           {
             "name": "body",
             "in": "body",
+            "required": true,
             "schema": {
               "type": "object",
               "properties": {
+                "firstName": {
+                  "type": "string",
+                  "example": "John"
+                },
+                "lastName": {
+                  "type": "string",
+                  "example": "Doe"
+                },
                 "email": {
-                  "example": "any"
+                  "type": "string",
+                  "example": "johndoe@example.com"
                 },
-                "username": {
-                  "example": "any"
+                "favoriteColor": {
+                  "type": "string",
+                  "example": "blue"
                 },
-                "name": {
-                  "example": "any"
-                },
-                "ipaddress": {
-                  "example": "any"
+                "birthday": {
+                  "type": "string",
+                  "format": "date",
+                  "example": "1990-01-01"
                 }
               }
             }
@@ -118,17 +128,26 @@
             "schema": {
               "type": "object",
               "properties": {
+                "firstName": {
+                  "type": "string",
+                  "example": "John"
+                },
+                "lastName": {
+                  "type": "string",
+                  "example": "Doe"
+                },
                 "email": {
-                  "example": "any"
+                  "type": "string",
+                  "example": "johndoe@example.com"
                 },
-                "username": {
-                  "example": "any"
+                "favoriteColor": {
+                  "type": "string",
+                  "example": "blue"
                 },
-                "name": {
-                  "example": "any"
-                },
-                "ipaddress": {
-                  "example": "any"
+                "birthday": {
+                  "type": "string",
+                  "format": "date",
+                  "example": "1990-01-01"
                 }
               }
             }
